@@ -282,7 +282,8 @@ button:hover {
 .specs {
   position: absolute;
   top: 1500px;
-  left: 150px;
+  left: 70px;
+  padding-left: 50px;
 }
 
 table {
