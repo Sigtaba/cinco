@@ -9,6 +9,7 @@ color:white;
 
 .wrapper {
   position: relative;
+  clear: both;
 }
 
 .pdp {
@@ -77,7 +78,45 @@ ul {
   clear: both;
   float:right;
   border: 2px solid white;
-  padding: 50px;
+  padding: 40px;
   margin-right: 80px;
   background-color: rgba(255, 255, 255, 0.2);
+}
+
+.gallery {
+  clear: both;
+  position: absolute;
+  top: 650px;
+  width: 616px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid white;
+  box-sizing: border-box;
+  left: 300px;
+}
+
+.gal-image {
+  width: 200px;
+  height: 200px;
+  border: 2px solid white;
+  float: right;
+}
+
+#cat3, #cat2 {
+  width: 200px;
+}
+
+#cat1, #cat4 {
+  width: 115px;
+}
+
+#cat6 {
+  width: 160px;
+}
+
+#cat5, #cat9 {
+  width: 190px;
+}
+
+#cat7, #cat8 {
+  width: 123px;
 }
