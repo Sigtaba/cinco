@@ -12,6 +12,14 @@ color:white;
   clear: both;
 }
 
+.title {
+  font-size: 45px;
+  position: absolute;
+  top: 45px;
+  left: 60px;
+  font-family: 'Pacifico', cursive;
+}
+
 .pdp {
   position: absolute;
   top: 150px;
@@ -81,12 +89,19 @@ ul {
   padding: 40px;
   margin-right: 80px;
   background-color: rgba(255, 255, 255, 0.2);
+  font-family: 'Quicksand', sans-serif;
+}
+
+.pdp h1 {
+  font-family: 'Pacifico', cursive;
+
 }
 
 .gal-header {
   position: absolute;
   top: 630px;
   left: 300px;
+    font-family: 'Pacifico', cursive;
 }
 
 .gallery {
@@ -105,6 +120,92 @@ ul {
   height: 200px;
   border: 2px solid white;
   float: right;
+  position: relative;
+}
+
+.gal-image:nth-child(1):hover::after {
+  content: "Buddy";
+  position: absolute;
+  font-family: 'Poiret One', cursive;
+  font-size: 30px;
+  bottom: 0px;
+  left:0px;
+}
+
+.gal-image:nth-child(2):hover::after {
+  content: "Chipper";
+  position: absolute;
+  font-family: 'Poiret One', cursive;
+  font-size: 30px;
+  bottom: 0px;
+  left:0px;
+}
+
+.gal-image:nth-child(3):hover::after {
+  content: "Skippy";
+  position: absolute;
+  font-family: 'Poiret One', cursive;
+  font-size: 30px;
+  bottom: 0px;
+  left:0px;
+}
+
+.gal-image:nth-child(4):hover::after {
+  content: "Jerry";
+  position: absolute;
+  font-family: 'Poiret One', cursive;
+  font-size: 30px;
+  bottom: 0px;
+  left:0px;
+}
+
+.gal-image:nth-child(5):hover::after {
+  content: "Buckets";
+  position: absolute;
+  font-family: 'Poiret One', cursive;
+  font-size: 30px;
+  bottom: 0px;
+  left:0px;
+}
+
+.gal-image:nth-child(6):hover::after {
+  content: "Toonses";
+  position: absolute;
+  font-family: 'Poiret One', cursive;
+  font-size: 30px;
+  bottom: 0px;
+  left:0px;
+}
+
+.gal-image:nth-child(7):hover::after {
+  content: "Laura Dern";
+  position: absolute;
+  font-family: 'Poiret One', cursive;
+  font-size: 30px;
+  bottom: 0px;
+  left:0px;
+}
+
+.gal-image:nth-child(8):hover::after {
+  content: "Wanda";
+  position: absolute;
+  font-family: 'Poiret One', cursive;
+  font-size: 30px;
+  bottom: 0px;
+  left:0px;
+}
+
+.gal-image:nth-child(9):hover::after {
+  content: "Butter";
+  position: absolute;
+  font-family: 'Poiret One', cursive;
+  font-size: 30px;
+  bottom: 0px;
+  left:0px;
+}
+
+.gal-image:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 #cat3, #cat2 {
